@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9933"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="bridge" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#FFFBEB"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Subtle Tribal Geometric Sunburst Arc -->
+  <circle cx="256" cy="220" r="140" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="10 14"/>
+  <circle cx="256" cy="220" r="110" fill="#FFFFFF" fill-opacity="0.12"/>
+
+  <!-- Kalyan Setu (Bridge & Rising Sun Emblem) -->
+  <g filter="url(#shadow)">
+    <!-- Sun of Enlightenment -->
+    <circle cx="256" cy="180" r="48" fill="#FFFFFF"/>
+    <circle cx="256" cy="180" r="38" fill="#F59E0B"/>
+
+    <!-- Graduation Cap / Gyan Icon at Center -->
+    <path d="M256 150 L292 168 L256 186 L220 168 Z" fill="#FFFFFF"/>
+    <path d="M236 177 V195 C236 203 276 203 276 195 V177" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M292 168 V198" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="292" cy="201" r="3" fill="#FFFFFF"/>
+
+    <!-- Bridge (Setu) Arches -->
+    <path d="M96 350 C160 260 210 240 256 240 C302 240 352 260 416 350" fill="none" stroke="url(#bridge)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M120 370 C175 305 218 290 256 290 C294 290 337 305 392 370" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-opacity="0.9"/>
+
+    <!-- Pillar Foundation Lines -->
+    <path d="M170 305 V370 M256 265 V370 M342 305 V370" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-opacity="0.8"/>
+  </g>
+
+  <!-- Devanagari 'क' & 'से' Stylized Motif Baseline -->
+  <text x="256" y="435" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="38" fill="#FFFFFF" letter-spacing="4">कल्याणसेतु</text>
+  <text x="256" y="465" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#FEF3C7" letter-spacing="2">KALYANSETU · SIH26238</text>
+</svg>

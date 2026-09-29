@@ -1,0 +1,6 @@
+{
+  "name": "Kalyansetu (कल्याणसेतु) - Unified Tribal Scholarship Portal",
+  "description": "Unified Scholarship Mobile Application for Tribal Students (Ministry of Tribal Affairs, SIH26238) featuring DigiLocker vault, PFMS DBT tracker, offline PWA sync, AI Dropout Risk Predictor, and bilingual Jago voice assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
